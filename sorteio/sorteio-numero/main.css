@@ -1,0 +1,87 @@
+/* RESET */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    background-color: #a4c1e4;
+    margin: 15% 28%;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+.caixa {
+    display: inline-grid;
+    background-color: #396eb8;
+    text-align: center;
+    width: 630px;
+    height: 302px;
+    border-radius: 20px;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 1px 1px 1px 1px #214269;
+    justify-content: space-evenly;
+}
+
+.caixa h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.entradas {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 20px 0;
+}
+
+#sortear {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 90px;
+    height: 36px;
+    color: #396eb8;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #214269;
+    margin-bottom: 10px;
+}
+
+.entradas .entrada {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.max {
+    padding-left: 20px;
+}
+
+input {
+    width: 129px;
+    height: 26px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #214269;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#resultado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 0 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.voltar button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 18px;
+    width: 45px;
+    border-radius: 8px;
+}
